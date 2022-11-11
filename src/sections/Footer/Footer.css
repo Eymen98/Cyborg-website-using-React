@@ -1,0 +1,15 @@
+p{
+    text-align: center;
+    color: var(--color-light);
+    padding: calc(var(--padding-primary)/2);
+    font-weight: var(--font-weight-normal);
+}
+
+p a{
+    color: var(--color-light);
+    transition: all .3s;
+}
+
+p a:hover{
+    color: var(--color-primary);
+}
